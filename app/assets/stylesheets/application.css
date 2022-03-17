@@ -1,0 +1,130 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+*{
+  margin :0;
+  padding :0;
+  box-sizing: border-box;
+}
+
+.top-box{
+  margin :33px;
+}
+
+
+.header-tag{
+  margin :30px;
+}
+
+.top-link{
+  margin :30px;
+}
+
+.index-box{
+  margin :33px;
+}
+
+th{
+  padding-bottom: 10px;
+  text-align :center;
+}
+
+td{
+  padding :0 5px 5px 5px;
+}
+
+.new-box{
+  margin :33px;
+}
+
+.new-title{
+  margin-top: 10px;
+}
+
+.new-body{
+  margin-top: 10px;
+}
+
+.new-link{
+  margin-top: 10px;
+}
+
+.show-box{
+  margin :33px;
+}
+
+.show-title{
+  margin :20px;
+  display: flex;
+  justify-content:flex-start;
+}
+
+.show-body{
+  margin :20px;
+  display: flex;
+  justify-content:flex-start;
+}
+
+.show-link-box{
+  margin-top: 15px;
+  display: flex;
+  justify-content:flex-start;
+}
+
+.space{
+  margin :0 10px;
+}
+
+.edit-box{
+  margin :33px;
+}
+
+.edit-title{
+  margin-top: 15px;
+}
+
+.edit-body{
+  margin-top: 15px;
+}
+
+.edit-switch{
+  margin-top: 15px;
+}
+
+.edit-link-box{
+  margin-top: 15px;
+  display: flex;
+  justify-content:flex-start;
+}
+
+.sacces{
+  margin :33px;
+  color: green;
+}
+
+.error-message{
+  border :1px solid red;
+}
+
+.error-title{
+  background-color :red;
+  color :white;
+  padding-left :10px;
+}
+
+.error-body{
+  margin-left: 50px;
+}

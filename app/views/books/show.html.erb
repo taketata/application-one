@@ -1,0 +1,25 @@
+<% if flash[:notice] %>
+  <p class="sacces"><%= flash[:notice] %></p>
+<% end %>
+
+<div class="show-box">
+
+  <div class="show-title">
+    <h4>title: </h4>
+    <p><%= @book.title %></p>
+  </div>
+
+  <div class="show-body">
+    <h4>body: </h4>
+    <p><%= @book.body %></p>
+  </div>
+
+  <div class="show-link-box">
+    <%= link_to 'Edit',edit_book_path(@book.id) %>
+
+    <p class="space">|</p>
+
+    <%= link_to 'Back',"/books" %>
+  </div>
+
+</div>
